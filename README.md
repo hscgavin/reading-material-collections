@@ -7,5 +7,5 @@
 ### 127 Helpful JavaScript Snippets You Can Learn in 30 Seconds or Less
 https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-learn-in-30-seconds-or-less-part-1-of-6-bc2bc890dfe5
 
-### https://medium.com/hackernoon/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758
+### The 100% correct way to split your chunks with Webpack
 [know what file-splitting strategy will work best for your site and your users](https://medium.com/hackernoon/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758)
