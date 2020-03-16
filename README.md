@@ -9,3 +9,6 @@ https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-le
 
 ### The 100% correct way to split your chunks with Webpack
 [know what file-splitting strategy will work best for your site and your users](https://medium.com/hackernoon/the-100-correct-way-to-split-your-chunks-with-webpack-f8a9df5b7758)
+
+### 10++ TypeScript Pro tips/patterns with (or without) React
+https://medium.com/@martin_hotell/10-typescript-pro-tips-patterns-with-or-without-react-5799488d6680
