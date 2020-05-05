@@ -39,3 +39,40 @@ function get<T extends object, K extends keyof T>(s: T, k: K): T[K] {
   return s[k]
 }
 ```
+
+
+### 1. Required, Partial & Pick
+
+Now we understand of the usage of `keyof`, let's dive into a few of utility types provided by typescript.
+
+It's import for us to understand how they leverage `keyof`:
+
+```ts
+// Constructs a type with all properties of T set to optional.
+type Partial<T> = {
+  [P in keyof T]?: T[P];
+};
+
+type Required<T> = {
+  // -? means must be all present,
+  // aka it removes optionality (?) 
+  [P in keyof T]-?: T[P];
+};
+// Constructs a type by picking the set of properties K from T.
+type Pick<T, K extends keyof T> = {
+  [P in K]: T[P];
+};
+
+interface Student {
+  id: number;
+  email: string;
+  name: string;
+};
+
+// { id?: number; email?: string; name?: string; }
+type PartialStudent = Partial<Student>
+
+// { name: string; email: string; }
+type PickStudent = Pick<User, "string" | "email">
+
+```
