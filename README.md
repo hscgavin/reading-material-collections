@@ -14,3 +14,6 @@ https://medium.com/better-programming/127-helpful-javascript-snippets-you-can-le
 
 ### 10++ TypeScript Pro tips/patterns with (or without) React
 https://medium.com/@martin_hotell/10-typescript-pro-tips-patterns-with-or-without-react-5799488d6680
+
+### Advanced Vanilla javscript snippets
+https://github.com/iboying/interview-snippets
